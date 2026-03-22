@@ -1,0 +1,139 @@
+﻿
+> beauty-of-words@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+node.exe : Found 1 
+warning while 
+optimizing generated 
+CSS:
+At C:\Program Files\nod
+ejs\npm.ps1:29 char:3
++   & $NODE_EXE 
+$NPM_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (Found 1 warni   
+ ng... generated CS    
+S::String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+
+[2mΓöé   }[22m
+[2mΓöé }[22m
+[2mΓöé[22m @import ur
+l('https://fonts.google
+apis.com/css2?family=In
+ter:wght@300;400;500;60
+0&family=Playfair+Displ
+ay:ital,wght@0,400;0,60
+0;0,700;1,400&display=s
+wap');
+[2mΓöå[22m        
+[33m[2m^--[22m 
+@import rules must 
+precede all rules 
+aside from @charset 
+and @layer 
+statements[39m
+[2mΓöå[22m
+[2mΓöé html, body 
+{[22m
+[2mΓöé   margin: 
+0;[22m
+
+[32mΓ£ô[39m 48 modules transformed.
+[31mΓ£ù[39m Build 
+failed in 555ms
+[31merror during 
+build:
+[31msrc/pages/Explore.
+jsx (2:7): "default" 
+is not exported by "src
+/components/QuoteCard.j
+sx", imported by "src/p
+ages/Explore.jsx".[31m
+file: [36mD:/New 
+folder (2)/beauty-of-wo
+rds/src/pages/Explore.j
+sx:2:7[31m
+[33m
+1: import WordCard 
+from "../components/Wor
+dCard";
+2: import QuoteCard 
+from "../components/Quo
+teCard";
+          ^
+3: 
+4: function Explore() {
+[31m
+    at getRollupError (
+file:///D:/New%20folder
+%20(2)/beauty-of-words/
+node_modules/rollup/dis
+t/es/shared/parseAst.js
+:402:41)
+    at error (file:///D
+:/New%20folder%20(2)/be
+auty-of-words/node_modu
+les/rollup/dist/es/shar
+ed/parseAst.js:398:42)
+    at Module.error (fi
+le:///D:/New%20folder%2
+0(2)/beauty-of-words/no
+de_modules/rollup/dist/
+es/shared/node-entry.js
+:17040:16)
+    at 
+Module.traceVariable (f
+ile:///D:/New%20folder%
+20(2)/beauty-of-words/n
+ode_modules/rollup/dist
+/es/shared/node-entry.j
+s:17452:29)
+    at ModuleScope.find
+Variable (file:///D:/Ne
+w%20folder%20(2)/beauty
+-of-words/node_modules/
+rollup/dist/es/shared/n
+ode-entry.js:15070:39)
+    at FunctionScope.fi
+ndVariable (file:///D:/
+New%20folder%20(2)/beau
+ty-of-words/node_module
+s/rollup/dist/es/shared
+/node-entry.js:5673:38)
+    at FunctionBodyScop
+e.findVariable (file://
+/D:/New%20folder%20(2)/
+beauty-of-words/node_mo
+dules/rollup/dist/es/sh
+ared/node-entry.js:5673
+:38)
+    at Identifier.bind 
+(file:///D:/New%20folde
+r%20(2)/beauty-of-words
+/node_modules/rollup/di
+st/es/shared/node-entry
+.js:5447:40)
+    at 
+CallExpression.bind (fi
+le:///D:/New%20folder%2
+0(2)/beauty-of-words/no
+de_modules/rollup/dist/
+es/shared/node-entry.js
+:2825:28)
+    at 
+CallExpression.bind (fi
+le:///D:/New%20folder%2
+0(2)/beauty-of-words/no
+de_modules/rollup/dist/
+es/shared/node-entry.js
+:12179:15)[39m
