@@ -1,5 +1,9 @@
 import axios from 'axios';
 
+// const api = axios.create({
+//   baseURL: 'https://beauty-of-words.onrender.com/api',
+// });
+
 const api = axios.create({
   baseURL: 'http://localhost:5000/api',
 });
