@@ -1,12 +1,12 @@
 import axios from 'axios';
 
-// const api = axios.create({
-//   baseURL: 'https://beauty-of-words.onrender.com/api',
-// });
-
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://beauty-of-words-1.onrender.com/api',
 });
+
+// const api = axios.create({
+//   baseURL: 'http://localhost:5000/api',
+// });
 
 // Add a request interceptor to include the JWT token
 api.interceptors.request.use(
